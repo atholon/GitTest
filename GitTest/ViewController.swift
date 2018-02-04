@@ -20,10 +20,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func btnTapped(sender:Any?) {
-        print("我被按啦！")
+    @IBAction func btn1Tapped(sender:Any?) {
+        print("1被按啦！")
+    }
+    
+    @IBAction func btn2Tapped(sender:Any?) {
+        print("2被按啦！")
     }
 
 
+
 }
+
+
+
 

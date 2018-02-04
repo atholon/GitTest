@@ -19,10 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ya-Mn-c5b">
-                                <rect key="frame" x="164" y="188" width="46" height="30"/>
+                                <rect key="frame" x="172" y="188" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="btn1"/>
                                 <connections>
+                                    <action selector="btn1TappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X1z-6C-NKf"/>
                                     <action selector="btnTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aZa-po-yWW"/>
                                 </connections>
                             </button>
@@ -33,6 +34,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQK-Rx-2Nf">
+                                <rect key="frame" x="149" y="488" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="btn2"/>
+                                <connections>
+                                    <action selector="btn2TappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FvY-aT-FMD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
