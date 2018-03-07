@@ -29,7 +29,13 @@ class ViewController: UIViewController {
     }
     //文本测试第一次。
     
+    
+    
     //文本测试第三次（从第一次分支出来后）
+    
+    
+    
+    //第一次合并后，在分支上第二次添加
 
 
 
