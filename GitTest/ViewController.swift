@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     @IBAction func btn2Tapped(sender:Any?) {
         print("2被按啦！")
     }
+    //文本测试第一次。
 
 
 
